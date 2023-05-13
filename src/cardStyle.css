@@ -1,0 +1,64 @@
+.card {
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    background-color: rgb(247, 243, 243);
+    padding: 30px 00px 60px 30px;
+    border-radius: 20px;
+    margin-left: 25px;
+    
+}
+
+.card--info {
+    margin-left: 20px;
+    height: 275px;
+    
+}
+
+.card--coordinates {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card--img {
+    max-width: 200px;
+    max-height: 270px;
+    border-radius: 20px;
+    min-width: 200px;
+    min-height: 270px;
+}
+
+.card--locicon {
+    width: 15px;
+}
+
+.card--location {
+    margin-left: 5px;
+}
+
+.card--link {
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.linkLetters {
+    color:rgb(82, 93, 104);
+    font-style: italic;
+}
+
+.card--title {
+    margin-top: 0px;
+}
+
+.card--desc {
+    max-width: 1200px;
+    min-width: 420px;
+}
+
+.card--date {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 16px;
+}
